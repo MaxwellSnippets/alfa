@@ -19,15 +19,16 @@
       <link href="{% static 'css/base.css' %}" rel="stylesheet">
       <script src="{% static 'js/base.js' %}"></script>
       {% block title %}
-      <title style="">Statter</title>
+      <title style="">Mfa-connect</title>
       {% endblock %}
    </head>
    <body>
+      
       <a style="text-decoration:none" href="{% url 'dashboard' %}">
          <section class="hero is-small is-info mb-4">
             <div class="hero-body">
-               <h1 class="title is-1" style="font-weight: bold"><img width="50px" height="50px" src="http://clipart-library.com/new_gallery/189635_lightbulb-icon-png.png">Statter</h1>
-               <p class"subtitle is-4">Your tiny social network built with Django & Bulma</p>
+               <h1 class="title is-1" style="font-weight: bold"><img width="50px" height="50px" src="http://clipart-library.com/new_gallery/189635_lightbulb-icon-png.png">Mfa-connect</h1>
+               <p class"subtitle is-4">Home where the heart is</p>
             </div>
             {% if request.user.is_authenticated %}
             <button class="button is-success" name="Login" value="Login"> 
@@ -48,9 +49,7 @@
    <footer class="footer">
       <div class="content has-text-centered">
          <p>
-            <strong>Statter</strong> by <a id="credit" href="https://jgthms.com">Simeon M. Simeonov</a>. The source code is licensed
-            <a id="credit" href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-            is licensed <a id="credit" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            <strong>Copyrights</strong> @ Davies Kiprono 2023.
          </p>
       </div>
    </footer>
